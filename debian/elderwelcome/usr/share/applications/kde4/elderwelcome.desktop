@@ -1,0 +1,13 @@
+[Desktop Entry]
+Exec=elderwelcome
+Icon=elderwelcome
+Terminal=false
+Type=Application
+Encoding=UTF-8
+OnlyShowIn=KDE;
+Categories=System;
+StartupNotify=false
+Name=Welcome Screen
+Comment=Introduction to Elderberry Linux
+GenericName=Welcome Screen
+Name[en_US]=elderwelcome

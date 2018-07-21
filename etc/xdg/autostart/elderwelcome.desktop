@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=elderwelcome
+Comment=Elderberry Linux Welcome Screen
+Icon=elderwelcome
+Exec=elderwelcome-launcher
+Terminal=false
+Type=Application
+Categories=
+
+Name[en_US]=elderwelcome.desktop

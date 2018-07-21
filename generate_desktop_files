@@ -1,0 +1,52 @@
+#!/usr/bin/python3
+
+DOMAIN = "mintwelcome"
+PATH = "/usr/share/elderberrylinux/locale"
+
+import os
+import gettext
+import sys
+
+sys.path.append('/usr/lib/elderberrylinux/common')
+import additionalfiles
+
+os.environ['LANGUAGE'] = "en_US.UTF-8"
+gettext.install(DOMAIN, PATH)
+
+prefix = """[Desktop Entry]
+Exec=elderwelcome
+Icon=elderwelcome
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=GNOME;GTK;Settings;DesktopSettings;
+NotShowIn=KDE;
+StartupNotify=false
+"""
+
+additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/elderwelcome.desktop", prefix, _("Welcome Screen"), _("Introduction to Elderberry Linux"), "")
+
+prefix = """[Desktop Entry]
+Exec=elderwelcome
+Icon=elderwelcome
+Terminal=false
+Type=Application
+Encoding=UTF-8
+OnlyShowIn=KDE;
+Categories=System;
+StartupNotify=false
+"""
+
+additionalfiles.generate(DOMAIN, PATH, "usr/share/applications/kde4/elderwelcome.desktop", prefix, _("Welcome Screen"), _("Introduction to Elderberry Linux"), "", genericName=_("Welcome Screen"))
+
+prefix = """[Desktop Entry]
+Exec=apturl apt://mint-meta-codecs?refresh=yes
+Icon=applications-multimedia
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Categories=Application;AudioVideo;Audio;
+StartupNotify=false
+"""
+
+additionalfiles.generate(DOMAIN, PATH, "mint-meta-codecs.desktop", prefix, _("Install Multimedia Codecs"), _("Add all the missing multimedia codecs"), "")

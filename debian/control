@@ -1,0 +1,20 @@
+Source: elderwelcome
+Section: admin
+Priority: optional
+Maintainer: KR Drew <elderberry4Linux@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+
+Package: elderwelcome
+Architecture: all
+Depends: python3 (>= 3.3),
+         python3-gi,
+         python3-xapp (>= 1.0.1),
+         mint-info,
+         mint-common,
+         apturl | apturl-kde,
+         ${misc:Depends},
+Conflicts: mintwelcome, mintassistant, mintassistant-gnome, mintassistant-kde
+Replaces: mintwelcome, mintassistant, mintassistant-gnome, mintassistant-kde
+Description: Welcome screen for Elderberry Linux
+ Shows important information about the release of Elderberry Linux.
