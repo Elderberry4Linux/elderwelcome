@@ -1644,12 +1644,12 @@
                     <property name="halign">end</property>
                     <property name="border_width">20</property>
                     <property name="orientation">vertical</property>
-                     <!--Mint-logo-5 Elderberry Change Needed<child>
+                     <child>
                       <object class="GtkImage">
                         <property name="visible">False</property>
                         <property name="can_focus">False</property>
                         <property name="pixel_size">32</property>
-                        <property name="icon_name">linuxmint-logo-5</property>
+                        <property name="icon_name">elderwelcome</property>
                         <property name="icon_size">0</property>
                       </object>
                       <packing>
@@ -1657,7 +1657,7 @@
                         <property name="fill">True</property>
                         <property name="position">0</property>
                       </packing>
-                    </child> -->
+                    </child>
                     <child>
                       <object class="GtkLabel" id="label_version">
                         <property name="visible">True</property>
