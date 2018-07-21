@@ -1,0 +1,10 @@
+7811ade74108b9eb037198a93a6aa850  usr/bin/elderwelcome
+a95dc0676806aef9c7c6636a4180d9fc  usr/bin/mintwelcome-launcher
+e0f526972ea1ada00c132d47f22bb88d  usr/lib/elderberrylinux/elderwelcome/elderwelcome.py
+6893563eda7487030225c22f610666f4  usr/share/applications/elderwelcome.desktop
+8efd607aeabefaf75443dff7118e4e3b  usr/share/applications/kde4/elderwelcome.desktop
+71a9b46c62e3654d0c4c9fed32e3a049  usr/share/doc/elderwelcome/changelog.gz
+8446aaa372789c71d665dbdaa179dea2  usr/share/doc/elderwelcome/copyright
+2d01a54eb072cc6e1d2536a0ab0d8c93  usr/share/elderberrylinux/elderwelcome/elderwelcome.ui
+75f5835d9060c3192e60589eb6ba9e64  usr/share/icons/hicolor/scalable/apps/elderwelcome.svg
+75f5835d9060c3192e60589eb6ba9e64  usr/share/pixmaps/elderwelcome.svg
